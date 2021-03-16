@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Homework 13</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <body class="body">
+  <div class="images-container">
+    <div class="form-container">
+      <form class="form-inline search-form js-search-form">
+        <div class="form-group">
+          <label for="searchQuery" class="sr-only">Введите картинку для поиска</label>
+          <input 
+          name="query" 
+          type="text" 
+          class="search-images" 
+          placeholder="Search images..."
+          autocomplete="off" 
+          />
+        </div>
+        <div class="buttons-container">
+          <button 
+          type="submit" 
+          class="btn search-btn"
+          >Найти
+      </button>
+        <button
+          type="button"
+          class="button btn"
+          data-action="load-more"
+          >Загрузить еще
+        </button>
+        </div>
+        
+        </form>
+    </div>
+
+  <div class="gallery">
+    <ul class="images__list js-gallery-container"></ul>
+  </div>
+</div>
+<div class="anchor"></div>
+</body>
+</html>
